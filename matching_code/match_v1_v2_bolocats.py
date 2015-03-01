@@ -335,7 +335,7 @@ def recarray_to_table(recarray):
         T.add_column(field, recarray[field], dtype=dtype)
     return T
 
-recarray_to_table(v1v2_onv2).write('../matches/v1v2_onv2_peak_table.fits',overwrite=True)
-recarray_to_table(v1v2_onv1).write('../matches/v1v2_onv1_peak_table.fits',overwrite=True)
-recarray_to_table(v1v2_onv2_cen).write('../matches/v1v2_onv2_cen_table.fits',overwrite=True)
-recarray_to_table(v1v2_onv1_cen).write('../matches/v1v2_onv1_cen_table.fits',overwrite=True)
+recarray_to_table(v1v2_onv2).write('../cross/v1v2_onv2_peak_table.fits',overwrite=True)
+recarray_to_table(v1v2_onv1).write('../cross/v1v2_onv1_peak_table.fits',overwrite=True)
+recarray_to_table(v1v2_onv2_cen).write('../cross/v1v2_onv2_cen_table.fits',overwrite=True)
+recarray_to_table(v1v2_onv1_cen).write('../cross/v1v2_onv1_cen_table.fits',overwrite=True)
